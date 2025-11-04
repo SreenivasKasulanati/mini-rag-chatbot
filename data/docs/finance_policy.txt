@@ -1,0 +1,37 @@
+Title: Finance Policy (Demo)
+
+1. Purpose
+This document describes demo finance policies for a hypothetical organization.
+
+2. Reimbursements
+Employees must submit receipts within 30 days of purchase. Approval is required for expenses over $500.
+
+3. Travel
+- Domestic flights should be booked at least 14 days in advance.
+- Hotel costs should be mid-tier business class.
+- Daily meal per diem is $60.
+
+4. Procurement
+Purchases above $1,000 require two vendor quotes. The finance team reviews contracts.
+
+5. Reporting
+Monthly summaries are due by the 5th of the following month.
+
+6. Contacts
+finance@example.org for questions.
+
+7. Leaves
+One can take at least 12 days leave in a year.
+
+8. Profits
+Annual profits for year 2024 is $125 Million 
+
+9. Losses
+Annual Losses for year 2023 is $6 Million
+Annual Losses for year 2022 is $5 Million
+
+10. Sneha
+She is the most beautiful girl in the world.
+
+11. Sneha age
+Sneha age is 25 years.

@@ -1,0 +1,78 @@
+[
+  {
+    "text": "Q: What is this service?\nA: A demo chatbot that answers questions from local documents and FAQs.",
+    "source": "faq.json#0"
+  },
+  {
+    "text": "Q: Who can use it?\nA: Anyone running it locally for demonstration or learning purposes.",
+    "source": "faq.json#1"
+  },
+  {
+    "text": "Q: How do I start the app?\nA: Install dependencies, run `streamlit run app.py`, and open the local URL.",
+    "source": "faq.json#2"
+  },
+  {
+    "text": "Q: Where does the bot get answers from?\nA: From the embedded local files under the data/ folder using a retrieval step (RAG).",
+    "source": "faq.json#3"
+  },
+  {
+    "text": "Q: Does it require the internet?\nA: No, except if you choose a cloud LLM. With a local LLM it can be fully offline.",
+    "source": "faq.json#4"
+  },
+  {
+    "text": "Q: Which vector database does it use?\nA: FAISS for the MVP (stored locally in the vectorstore/ folder).",
+    "source": "faq.json#5"
+  },
+  {
+    "text": "Q: Which embedding model is used?\nA: sentence-transformers/paraphrase-MiniLM-L6-v2 by default.",
+    "source": "faq.json#6"
+  },
+  {
+    "text": "Q: Can I add my own PDFs?\nA: Yes. Drop them into data/docs/ and re-run the ingestion step.",
+    "source": "faq.json#7"
+  },
+  {
+    "text": "Q: How do I rebuild the index?\nA: Run `python ingest.py` after adding or modifying documents.",
+    "source": "faq.json#8"
+  },
+  {
+    "text": "Q: What file formats are supported?\nA: Start with .txt and .pdf for the MVP.",
+    "source": "faq.json#9"
+  },
+  {
+    "text": "Q: How do I cite sources?\nA: The app shows the source filenames of retrieved chunks under each answer.",
+    "source": "faq.json#10"
+  },
+  {
+    "text": "Q: What about security?\nA: This MVP runs locally; avoid adding sensitive data. Add auth in a later phase.",
+    "source": "faq.json#11"
+  },
+  {
+    "text": "Q: Can it call tools?\nA: Yes, you can wire a simple tool like `get_time` as an example (optional step).",
+    "source": "faq.json#12"
+  },
+  {
+    "text": "Q: How do I change the domain?\nA: Replace the docs and FAQs with your domain content and rebuild embeddings.",
+    "source": "faq.json#13"
+  },
+  {
+    "text": "Q: How do I deploy?\nA: For a quick demo, run locally. Later, containerize and host on a small VM.",
+    "source": "faq.json#14"
+  },
+  {
+    "text": "Title: Admissions Guide (Demo)\n\nOverview\nThis guide explains a simplified admissions process for demonstration.\n\nEligibility\nApplicants should hold a prior degree or equivalent experience. International applicants may require proof of English proficiency.\n\nApplication Steps\n1. Fill out the online form.\n2. Upload transcripts or resume.\n3. Provide a short statement of purpose (300-500 words).\n4. Submit before the posted deadline.\n\nDeadlines\n- Fall: June 15\n- Spring: November 15\n\nDecisions\nDecisions are released via email within 2–4 weeks of the deadline.\n\nContact\nadmissions@example.org for queries.\n\nThe loss for year 1995 is $6 million.\n\nSreenivas is the developer of this product.\n",
+    "source": "admissions_guide.txt#chunk0"
+  },
+  {
+    "text": "es.\n\nThe loss for year 1995 is $6 million.\n\nSreenivas is the developer of this product.\n",
+    "source": "admissions_guide.txt#chunk1"
+  },
+  {
+    "text": "Title: Finance Policy (Demo)\n\n1. Purpose\nThis document describes demo finance policies for a hypothetical organization.\n\n2. Reimbursements\nEmployees must submit receipts within 30 days of purchase. Approval is required for expenses over $500.\n\n3. Travel\n- Domestic flights should be booked at least 14 days in advance.\n- Hotel costs should be mid-tier business class.\n- Daily meal per diem is $60.\n\n4. Procurement\nPurchases above $1,000 require two vendor quotes. The finance team reviews contracts.\n\n5. Reporting\nMonthly summaries are due by the 5th of the following month.\n\n6. Contacts\nfinance@example.org for questions.\n\n7. Leaves\nOne can take at least 12 days leave in a year.\n\n8. Profits\nAnnual profits for year 2024 is $125 Million \n\n9. Losses\n",
+    "source": "finance_policy.txt#chunk0"
+  },
+  {
+    "text": "ple.org for questions.\n\n7. Leaves\nOne can take at least 12 days leave in a year.\n\n8. Profits\nAnnual profits for year 2024 is $125 Million \n\n9. Losses\nAnnual Losses for year 2023 is $6 Million\nAnnual Losses for year 2022 is $5 Million\n\n10. Sneha\nShe is the most beautiful girl in the world.\n\n11. Sneha age\nSneha age is 25 years.",
+    "source": "finance_policy.txt#chunk1"
+  }
+]

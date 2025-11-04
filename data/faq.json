@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is this service?",
+    "answer": "A demo chatbot that answers questions from local documents and FAQs."
+  },
+  {
+    "question": "Who can use it?",
+    "answer": "Anyone running it locally for demonstration or learning purposes."
+  },
+  {
+    "question": "How do I start the app?",
+    "answer": "Install dependencies, run `streamlit run app.py`, and open the local URL."
+  },
+  {
+    "question": "Where does the bot get answers from?",
+    "answer": "From the embedded local files under the data/ folder using a retrieval step (RAG)."
+  },
+  {
+    "question": "Does it require the internet?",
+    "answer": "No, except if you choose a cloud LLM. With a local LLM it can be fully offline."
+  },
+  {
+    "question": "Which vector database does it use?",
+    "answer": "FAISS for the MVP (stored locally in the vectorstore/ folder)."
+  },
+  {
+    "question": "Which embedding model is used?",
+    "answer": "sentence-transformers/paraphrase-MiniLM-L6-v2 by default."
+  },
+  {
+    "question": "Can I add my own PDFs?",
+    "answer": "Yes. Drop them into data/docs/ and re-run the ingestion step."
+  },
+  {
+    "question": "How do I rebuild the index?",
+    "answer": "Run `python ingest.py` after adding or modifying documents."
+  },
+  {
+    "question": "What file formats are supported?",
+    "answer": "Start with .txt and .pdf for the MVP."
+  },
+  {
+    "question": "How do I cite sources?",
+    "answer": "The app shows the source filenames of retrieved chunks under each answer."
+  },
+  {
+    "question": "What about security?",
+    "answer": "This MVP runs locally; avoid adding sensitive data. Add auth in a later phase."
+  },
+  {
+    "question": "Can it call tools?",
+    "answer": "Yes, you can wire a simple tool like `get_time` as an example (optional step)."
+  },
+  {
+    "question": "How do I change the domain?",
+    "answer": "Replace the docs and FAQs with your domain content and rebuild embeddings."
+  },
+  {
+    "question": "How do I deploy?",
+    "answer": "For a quick demo, run locally. Later, containerize and host on a small VM."
+  }
+]
