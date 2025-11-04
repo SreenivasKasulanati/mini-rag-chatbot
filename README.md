@@ -8,7 +8,7 @@ An intelligent document-based Q&A chatbot powered by Retrieval-Augmented Generat
 
 ## 🚀 Live Demo
 
-🔗 [Try it here](YOUR-DEPLOYMENT-URL-HERE) *(update after deployment)*
+🔗 [Try it here](https://mini-rag-chatbot-sreeni.streamlit.app/)*
 
 ## ✨ Features
 
@@ -170,9 +170,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Your Name - Sreenivas (sreenivaskasulanati@gmail.com)
 
-Project Link: [https://github.com/YOUR-USERNAME/mini-rag-chatbot](https://github.com/YOUR-USERNAME/mini-rag-chatbot)
+Project Link: [https://github.com/SreenivasKasulanati/mini-rag-chatbot](https://github.com/YOUR-USERNAME/mini-rag-chatbot)
+
 
 ---
 
